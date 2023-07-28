@@ -82,10 +82,74 @@
 
   }
   /* profession vue */
-  .main-area{
-    height: 50vh;
-    background-color: red;
+  .about-me{
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .about-heading{
+    width: 40%;
+    margin: auto;
+    text-align: center;
 
   }
-
+  .self-summary{
+    height: 70vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+  .self-image{
+    height: 100%;
+    flex-basis: 30%;
+  }
+  .self-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-area{
+    flex-basis: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px ;
+  }
+  .cta-wrapper{
+    flex-basis: 20%;
+  }
+  .stats{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aquamarine; */
+  }
+  .box{
+    margin: auto 1rem ;
+    text-align: center;
+  }
+  .resume{
+    width: 100%;
+    height: 8vh;
+    /* background-color: aquamarine; */
+    text-align: center;
+  }
+  .resume a{
+    display: block;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: var(--color-hover);
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .resume a:hover{
+    color: var(--color-hover);
+    background-color: #fff;
+    border: 1px solid var(--color-hover);
+  }
 }
