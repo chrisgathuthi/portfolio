@@ -31,27 +31,129 @@
                     </div>
                 </div>
                 <div class="resume">
-                    <a href="./images/" role="button" download>Download Resume</a>
+                    <a href="#" role="button" download>Download Resume</a>
                 </div>
             </div>
 
         </div>
 
     </section>
+    <div class="skills">
+        <div class="skills-heading">
+            <h1>Skills</h1>
+        </div>
+    </div>
+    <div class="skills-wrapper">
+        <div class="tools-wrapper">
+            <div class="tool-item">
+                <img src="./images/python.png" alt="django project icon" width="64" height="64">
+                <span>Python</span>
+            </div>
+            <div class="tool-item">
+                <img src="./images/JavaScript.png" alt="django project icon" width="64" height="64">
+                <span>JavaScript</span>
+            </div>
+            <div class="tool-item">
+                <img src="./images/go.png" alt="django project icon" width="64" height="64">
+                <span>Go</span>
+            </div>
+            <div class="tool-item">
+                <img src="./images/django.png" alt="django project icon" width="64" height="64">
+                <span>Django</span>
+            </div>
+            <div class="tool-item">
+                <img src="./images/vue.png" alt="django project icon" width="64" height="64">
+                <span>Vue</span>
+            </div>
+            <div class="tool-item">
+                <img src="./images/postgres.png" alt="django project icon" width="64" height="64">
+                <span>Postgres</span>
+            </div>
+            <div class="tool-item">
+                <img src="./images/docker.png" alt="django project icon" width="64" height="64">
+                <span>Docker</span>
+            </div>
+            <div class="tool-item">
+                <img src="./images/git.png" alt="django project icon" width="64" height="64">
+                <span>Git</span>
+            </div>
+            <div class="tool-item">
+                <img src="./images/linux.png" alt="django project icon" width="64" height="64">
+                <span>bash</span>
+            </div>
+        </div>
+        <div class="services-wrapper">
+            <div class="service-item">
+                <span>Web developer</span>
+            </div>
+            <div class="service-item">
+                <span>Back-end Developer</span>
+            </div>
+            <div class="service-item">
+                <span>Front-end Developer</span>
+            </div>
+        </div>
+    </div>
 
     <section>
-        <div class="services-wrapper">
-            <div class="services-heading">
-                <h3>Services</h3>
-                <div class="service-items">
-                    <div class="web-apps">
-                        <img src="" alt="">
-                        <span>web applications</span>
-                    </div>
-                    .backend-web
+        <div class="portfolio">
+            <div class="porfolio-heading">
+                <h1>Porfolio</h1>
+            </div>
+        </div>
+        <div class="portfolio-wrapper">
+            <div class="project-wrapper">
+                <div class="thumbnail">
+                </div>
+                <div class="name">
+                    <h3>Photography</h3>
+                </div>
+                <div class="info">
+                    <button>Read more</button>
+                </div>
+            </div>
+            <div class="project-wrapper">
+                <div class="thumbnail">
+                </div>
+                <div class="name">
+                    <h3>Jalesa Foundation</h3>
+                </div>
+                <div class="info">
+                    <button>Read more</button>
+                </div>
+            </div>
+            <div class="project-wrapper">
+                <div class="thumbnail">
+                </div>
+                <div class="name">
+                    <h3>J.L law firm</h3>
+                </div>
+                <div class="info">
+                    <button>Read more</button>
+                </div>
+            </div>
+            <div class="project-wrapper">
+                <div class="thumbnail">
+                </div>
+                <div class="name">
+                    <h3>Rystoport</h3>
+                </div>
+                <div class="info">
+                    <button>Read more</button>
                 </div>
             </div>
         </div>
-
+    </section>
+    <section>
+        <div class="articles">
+        <div class="articles-heading">
+            <h1>Articles</h1>
+        </div>
+        <div class="articles-wrapper">
+            <div class="articles-item">
+                <h1>Hello world</h1>
+            </div>
+        </div>
+    </div>
     </section>
 </template>
