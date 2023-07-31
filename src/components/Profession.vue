@@ -84,12 +84,15 @@
         </div>
         <div class="services-wrapper">
             <div class="service-item">
-                <span>Web developer</span>
+                <!-- <img src="./images/web-dev.png" alt="full stack web developer"> -->
+                <span>Full-stack Web developer</span>
             </div>
             <div class="service-item">
+                <!-- <img src="./images/server.png" alt="server icon"> -->
                 <span>Back-end Developer</span>
             </div>
             <div class="service-item">
+                <!-- <img src="./images/front-end.jpeg" alt="frontend icon"> -->
                 <span>Front-end Developer</span>
             </div>
         </div>
@@ -151,9 +154,19 @@
         </div>
         <div class="articles-wrapper">
             <div class="articles-item">
-                <h1>Hello world</h1>
+                <img src="./images/django-orm.png" alt="">
+                <h1><a href="https://medium.com/@soverignchriss/querying-related-objects-in-django-web-framework-3aece5bd927d">Read</a> </h1>
             </div>
         </div>
     </div>
+    </section>
+    <div class="events">
+            <div class="events-heading">
+                <h1>Hackathon & Events</h1>
+            </div>
+        </div>
+    <section>
+
+
     </section>
 </template>
