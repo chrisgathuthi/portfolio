@@ -1,18 +1,20 @@
 @import './base.css';
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   header {
     background-color: #f6f6f6;
     height: 100vh;
   }
-  .header-container{
-    margin: auto ;
+
+  .header-container {
+    margin: auto;
     padding-top: 5rem;
     width: 70%;
     height: 100%;
     /* background-color: pink; */
   }
-  .header-card{
+
+  .header-card {
     /* background-color: blue; */
     width: 40%;
     margin: auto;
@@ -20,33 +22,39 @@
     justify-content: center;
     flex-direction: column;
   }
-  .header-image{
+
+  .header-image {
     /* background-color: green; */
     display: inline-flex;
 
   }
-  .header-image img{
+
+  .header-image img {
     border-radius: 50%;
     height: 50%;
     width: 50%;
     margin: auto;
   }
-  .introduction{
+
+  .introduction {
     display: grid;
     place-content: center;
   }
-  .contacts{
+
+  .contacts {
     /* background-color: aqua; */
     width: 60%;
     margin: 2rem auto 0;
   }
-  .contacts ul{
+
+  .contacts ul {
     height: 12vh;
-    display:  flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .contacts ul li{
+
+  .contacts ul li {
     list-style: none;
     /* background-color: red; */
     width: auto;
@@ -56,16 +64,19 @@
     justify-content: center;
     align-items: center;
   }
-  .contacts ul li i{
+
+  .contacts ul li i {
     font-size: 2rem;
     line-height: 4rem;
-    transition:  .6s;
+    transition: .6s;
     color: #000;
   }
-  .contacts ul li i:hover{
+
+  .contacts ul li i:hover {
     color: #fff;
   }
-  .contacts ul li a{
+
+  .contacts ul li a {
     position: relative;
     display: block;
     width: 60px;
@@ -76,75 +87,87 @@
     transition: .6s;
     box-shadow: 0 5px 4px rgb(0, 0, 0, .5);
   }
-  .contacts ul li a:hover{
+
+  .contacts ul li a:hover {
     transform: translate(0, -10px);
     background-color: var(--color-hover);
 
   }
+
   /* profession vue */
   .articles,
   .portfolio,
   .events,
   .skills,
-  .about-me{
+  .about-me {
     margin: 1rem auto;
     width: 100%;
   }
+
   .articles-heading,
   .porfolio-heading,
   .events-heading,
   .skills-heading,
-  .about-heading{
+  .about-heading {
     width: 40%;
     margin: auto;
     text-align: center;
 
   }
-  .self-summary{
+
+  .self-summary {
     height: 70vh;
     /* background-color: red; */
     display: flex;
     justify-content: space-evenly;
     margin: auto;
   }
-  .self-image{
+
+  .self-image {
     height: 100%;
     flex-basis: 30%;
   }
-  .self-image img{
+
+  .self-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .main-area{
+
+  .main-area {
     flex-basis: 40%;
     /* background-color: aqua; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    padding-left: 10px ;
+    padding-left: 10px;
   }
-  .cta-wrapper{
+
+  .cta-wrapper {
     flex-basis: 20%;
   }
-  .stats{
+
+  .stats {
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
     /* background-color: aquamarine; */
   }
-  .box{
-    margin: auto 1rem ;
+
+  .box {
+    margin: auto 1rem;
     text-align: center;
   }
-  .resume{
+
+  .resume {
     width: 100%;
     height: 8vh;
     /* background-color: aquamarine; */
     text-align: center;
   }
-  .resume a{
+
+  .resume a {
     display: block;
     height: 100%;
     width: 30%;
@@ -155,16 +178,19 @@
     font-weight: 600;
     text-decoration: none;
   }
-  .resume a:hover{
+
+  .resume a:hover {
     color: var(--color-hover);
     background-color: #fff;
     border: 1px solid var(--color-hover);
   }
-  .skills-wrapper{
+
+  .skills-wrapper {
     /* background-color: red; */
     height: 40vh;
   }
-  .tools-wrapper{
+
+  .tools-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,11 +198,13 @@
     width: 60%;
     /* background-color: aqua; */
   }
-  .tool-item{
+
+  .tool-item {
     margin: auto 10px;
     /* background-color: pink; */
   }
-  .services-wrapper{
+
+  .services-wrapper {
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -184,7 +212,8 @@
     width: 50%;
     margin: auto;
   }
-  .service-item{
+
+  .service-item {
     height: 6vh;
     /* background-color: blue; */
     border-radius: 10px;
@@ -192,7 +221,8 @@
     text-align: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
-  .portfolio-wrapper{
+
+  .portfolio-wrapper {
     /* background-color: red; */
     display: flex;
     border-radius: 10px;
@@ -202,25 +232,29 @@
     margin: 1.5rem auto 0;
     height: 50vh;
   }
-  .project-wrapper{
+
+  .project-wrapper {
     height: 70%;
     flex-basis: 20%;
     background-color: #ffffff;
     border-radius: 10px;
   }
-  .thumbnail{
+
+  .thumbnail {
     border-radius: 10px;
     height: 70%;
     background-color: #ccc;
   }
-  .project-wrapper button{
+
+  .project-wrapper button {
     border: none;
     color: #fff;
     background-color: var(--color-hover);
     outline: none;
     cursor: pointer;
   }
-  .articles-wrapper{
+
+  .articles-wrapper {
     margin-top: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -228,19 +262,128 @@
     height: 30vh;
     /* background-color: red; */
   }
-  .articles-item{
+
+  .articles-item {
     flex-basis: 20%;
     background-color: red;
     height: 80%;
     background-color: #ccc;
     border-radius: 10px;
   }
-  .articles-item img{
+
+  .articles-item img {
     object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
-  .articles-item h1 a{
+
+  .articles-item h1 a {
     text-decoration: none;
     color: #120011;
   }
 
+}
+
+@media screen and (max-width: 320px) {
+  .contacts{
+    width: 90%;
+  }
+  .header-container {
+    width: 98%;
+  }
+
+  .header-card {
+    width: 90%;
+  }
+
+  .self-summary {
+    flex-direction: column;
+    height: max-content;
+    gap: 5px;
+  }
+
+  .main-area {
+    flex-basis: 100%;
+    height: max-content;
+  }
+
+  .resume {
+    height: 10vh;
+  }
+
+  .tools-wrapper {
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .tool-item {
+    min-width: 40%;
+    gap: 10px 5px;
+  }
+
+  .tool-item span {
+    display: block;
+  }
+
+  .services-wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .service-item {
+    margin: 10px auto;
+    height: 10vh;
+    flex-basis: 35%;
+  }
+
+  .service-item:last-child {
+    align-items: self-start;
+  }
+
+  .skills-wrapper {
+    height: max-content;
+  }
+
+  .portfolio-wrapper {
+    width: 90%;
+    height: 98vh;
+    /* background-color: blue; */
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .project-wrapper {
+    height: 50%;
+    width: 80%;
+    margin: auto;
+  }
+
+  .articles-wrapper {
+    margin-top: 0;
+    height: 60vh;
+    width: 100%;
+    /* background-color: blue; */
+  }
+
+  .articles-item {
+    flex-basis: 90%;
+    height: 70%;
+    background-color: red;
+  }
+
+  .articles-item img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .events-heading {
+    width: 60%;
+  }
 }
