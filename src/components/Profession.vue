@@ -27,7 +27,7 @@
                     </div>
                     <div class="box">
                         <h2>10+</h2>
-                        <span>Clients</span>
+                        <span>Clients serviced</span>
                     </div>
                 </div>
                 <div class="resume">

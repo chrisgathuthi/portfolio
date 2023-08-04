@@ -1,6 +1,6 @@
 @import './base.css';
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1500px) {
   header {
     background-color: #f6f6f6;
     height: 100vh;
@@ -283,34 +283,62 @@
   }
 
 }
+@media screen and (max-width: 920px) {
+  header{
+    height: 40vh;
+  }
+  .header-container{
+    width: 80%;
+  }
+  .header-card{
+    width: 50%;
+  }
+  .self-image{
+    flex-basis: 50%;
+  }
+  .main-area{
+    height: 60%;
+  }
+  .resume{
+    height: 5vh;
+  }
+  .resume a{
+    width: 40%;
+  }
+  .tools-wrapper{
+    width: 70%;
+  }
+  .articles-wrapper{
+    justify-content: flex-start;
+    padding-left: 1rem;
+  }
+  .articles-item{
+    flex-basis: 50%;
+  }
+}
+@media screen and (max-width: 520px) {
 
-@media screen and (max-width: 320px) {
+}
+@media screen and (max-width: 420px) {
+  header{
+    height: 80vh;
+  }
+  .header-container{
+    width: 85%;
+  }
+  .header-card{
+    width: 80%;
+  }
   .contacts{
-    width: 90%;
+    width: 80%;
   }
-  .header-container {
-    width: 98%;
-  }
-
-  .header-card {
-    width: 90%;
-  }
-
-  .self-summary {
+  .self-summary{
     flex-direction: column;
-    height: max-content;
+    height: 120vh;
     gap: 5px;
+  
   }
-
-  .main-area {
-    flex-basis: 100%;
-    height: max-content;
-  }
-
-  .resume {
-    height: 10vh;
-  }
-
+  
   .tools-wrapper {
     width: 90%;
     justify-content: space-between;
@@ -329,6 +357,7 @@
 
   .services-wrapper {
     width: 100%;
+    height: 40vh;
     flex-wrap: wrap;
     justify-content: space-between;
 
@@ -336,7 +365,7 @@
 
   .service-item {
     margin: 10px auto;
-    height: 10vh;
+    height: 40%;
     flex-basis: 35%;
   }
 
@@ -350,7 +379,7 @@
 
   .portfolio-wrapper {
     width: 90%;
-    height: 98vh;
+    height: 120vh;
     /* background-color: blue; */
     justify-content: space-between;
     align-items: start;
@@ -358,7 +387,7 @@
   }
 
   .project-wrapper {
-    height: 50%;
+    height: 70%;
     width: 80%;
     margin: auto;
   }
@@ -385,5 +414,27 @@
 
   .events-heading {
     width: 60%;
+  }
+}
+@media screen and (max-width: 320px) {
+  header{
+    height: 90vh;
+  }
+  .contacts{
+    width: 90%;
+  }
+  .header-container {
+    width: 98%;
+  }
+
+  .header-card {
+    width: 90%;
+  }
+
+  .main-area {
+    height: 80%;
+  }
+  .resume a{
+    width: 50%;
   }
 }
