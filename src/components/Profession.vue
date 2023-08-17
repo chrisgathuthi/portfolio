@@ -85,15 +85,12 @@
             </div>
             <div class="services-wrapper">
                 <div class="service-item">
-                    <!-- <img src="./images/web-dev.png" alt="full stack web developer"> -->
                     <span>Full-stack Web developer</span>
                 </div>
                 <div class="service-item">
-                    <!-- <img src="./images/server.png" alt="server icon"> -->
                     <span>Back-end Developer</span>
                 </div>
                 <div class="service-item">
-                    <!-- <img src="./images/front-end.jpeg" alt="frontend icon"> -->
                     <span>Front-end Developer</span>
                 </div>
             </div>
@@ -144,7 +141,7 @@
                     <h3>Rystoport</h3>
                 </div>
                 <div class="info">
-                    <button>Read more</button>
+                    <a href="https://rystoport.com">Read more</a>
                 </div>
             </div>
         </div>
@@ -158,7 +155,14 @@
                 <div class="articles-item">
                     <img src="./images/django-orm.png" alt="">
                     <h1><a
-                            href="https://medium.com/@soverignchriss/querying-related-objects-in-django-web-framework-3aece5bd927d">Read</a>
+                            href="https://medium.com/@soverignchriss/querying-related-objects-in-django-web-framework-3aece5bd927d" target="_blank">Read</a>
+                    </h1>
+                </div>
+                <div class="articles-item">
+                    <img src="./images/optimazation-banner.png" alt="">
+                    <h1>
+                        <a
+                            href="https://medium.com/@soverignchriss/understanding-select-related-and-prefetch-related-methods-in-django-orm-db36003d5fbf" target="_blank">Read</a>
                     </h1>
                 </div>
             </div>
