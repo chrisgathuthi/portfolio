@@ -1,3 +1,8 @@
+<script setup>
+const portfolio = [
+
+]
+</script>
 <template>
     <section>
         <div class="about-me">
@@ -83,17 +88,6 @@
                     <span>bash</span>
                 </div>
             </div>
-            <div class="services-wrapper">
-                <div class="service-item">
-                    <span>Full-stack Web developer</span>
-                </div>
-                <div class="service-item">
-                    <span>Back-end Developer</span>
-                </div>
-                <div class="service-item">
-                    <span>Front-end Developer</span>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -103,39 +97,25 @@
                 <h1>Porfolio</h1>
             </div>
         </div>
+
         <div class="portfolio-wrapper">
             <div class="project-wrapper">
                 <div class="thumbnail">
-                </div>
-                <div class="name">
-                    <h3>Photography</h3>
-                </div>
-                <div class="info">
-                    <button>Read more</button>
-                </div>
-            </div>
-            <div class="project-wrapper">
-                <div class="thumbnail">
+                    <img src="https://jalesafoundation.org/static/img/logo-1_5_rz.7ec3a5e66bbb.png"
+                        alt="jalesa foundation logo">
+
                 </div>
                 <div class="name">
                     <h3>Jalesa Foundation</h3>
                 </div>
                 <div class="info">
-                    <button>Read more</button>
+                    <a href="https://jalesafoundation.org">Read more</a>
                 </div>
             </div>
+
             <div class="project-wrapper">
                 <div class="thumbnail">
-                </div>
-                <div class="name">
-                    <h3>J.L law firm</h3>
-                </div>
-                <div class="info">
-                    <button>Read more</button>
-                </div>
-            </div>
-            <div class="project-wrapper">
-                <div class="thumbnail">
+                    <img src="./images/rystoport.png" alt="rystoport logo">
                 </div>
                 <div class="name">
                     <h3>Rystoport</h3>
@@ -144,7 +124,20 @@
                     <a href="https://rystoport.com">Read more</a>
                 </div>
             </div>
+            <div class="project-wrapper">
+                <div class="thumbnail">
+                    <img src="https://fastechinternet.co.ke/assets/logo-730f1e60.png" alt="fastech solution">
+                </div>
+                <div class="name">
+                    <h3>Fastech solution</h3>
+                </div>
+                <div class="info">
+                    <a href="https://fastechinternet.com">Read more</a>
+                </div>
+            </div>
         </div>
+
+
     </section>
     <section>
         <div class="articles">
@@ -153,28 +146,27 @@
             </div>
             <div class="articles-wrapper">
                 <div class="articles-item">
-                    <img src="./images/django-orm.png" alt="">
-                    <h1><a
-                            href="https://medium.com/@soverignchriss/querying-related-objects-in-django-web-framework-3aece5bd927d" target="_blank">Read</a>
+                    <img src="./images/django-orm.png" alt="" loading="lazy">
+                    <h1><a href="https://medium.com/@soverignchriss/querying-related-objects-in-django-web-framework-3aece5bd927d"
+                            target="_blank">Traversing model relationships</a>
                     </h1>
                 </div>
                 <div class="articles-item">
-                    <img src="./images/optimazation-banner.png" alt="">
+                    <img src="./images/optimazation-banner.png" alt="" loading="lazy">
                     <h1>
-                        <a
-                            href="https://medium.com/@soverignchriss/understanding-select-related-and-prefetch-related-methods-in-django-orm-db36003d5fbf" target="_blank">Read</a>
+                        <a href="https://medium.com/@soverignchriss/understanding-select-related-and-prefetch-related-methods-in-django-orm-db36003d5fbf"
+                            target="_blank">select_related vs prefetch_related</a>
+                    </h1>
+                </div>
+                <div class="articles-item">
+                    <img src="./images/htmx.webp" alt="" loading="lazy">
+                    <h1>
+                        <a href="https://medium.com/@soverignchriss/asynchronous-form-field-validation-with-htmx-and-django-eb721165b5e8"
+                            target="_blank">Django with htmx</a>
                     </h1>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="events">
-        <div class="events-heading">
-            <h1>Hackathon & Events</h1>
-        </div>
-    </div>
-    <section>
-
-
+        <v-divider></v-divider>
     </section>
 </template>
