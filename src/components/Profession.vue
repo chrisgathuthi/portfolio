@@ -27,16 +27,16 @@ const portfolio = [
                         <span>Years experience</span>
                     </div>
                     <div class="box">
-                        <h2>20+</h2>
+                        <h2>15+</h2>
                         <span>completed projects</span>
                     </div>
                     <div class="box">
-                        <h2>10+</h2>
+                        <h2>8+</h2>
                         <span>Clients serviced</span>
                     </div>
                 </div>
                 <div class="resume">
-                    <a href="#" role="button" download>Download Resume</a>
+                    <a href="./images/Christopher Gathuthi Muriuki.pdf" role="button" download>Download Resume</a>
                 </div>
             </div>
 
