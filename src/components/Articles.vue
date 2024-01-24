@@ -21,6 +21,11 @@ const data = [
         "title": "Querying Related Objects in Django Web Framework",
         "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*VjVO6-6TYcJuFzLNW2alhg.png",
         "link": "https://medium.com/@soverignchriss/querying-related-objects-in-django-web-framework-3aece5bd927d"
+    },
+    {
+        "title": "Real-time Notification Streaming using SSE and Htmx",
+        "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*k6Yv_I28SUhSu6tMfZcCpQ.png",
+        "link": "https://medium.com/@soverignchriss/real-time-notification-streaming-using-sse-and-htmx-32798b5b2247"
     }
 ]
 </script>
